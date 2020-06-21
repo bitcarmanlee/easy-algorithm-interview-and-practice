@@ -55,8 +55,8 @@ $$
 
 $$
 \begin{align}
-a &= b + c \tag{3}\\
-  &= d + e + f\tag{4}
+a &= b + c \\
+  &= d + e + f
 \end{align}
 $$
 
