@@ -52,6 +52,14 @@ $$
 \end{align}
 $$
 
+
+$$
+\begin{align}
+a &= b + c \tag{3}\\
+  &= d + e + f\tag{4}
+\end{align}
+$$
+
 其中，$G_j = \sum _{i \in I_j} g_i$是落入叶子节点i所有样本一阶梯度的总和，而$H_j = \sum _{i \in I_j} h_i$是落入叶子节点i所有样本二阶梯度的总和。
 
 基于中学数学的原理，我们可以得知：
