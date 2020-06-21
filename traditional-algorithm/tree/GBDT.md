@@ -10,13 +10,13 @@ $$r_{mi} = -\left[\frac{\partial L(y_i,f(x_i))}{\partial f(x_i)} \right]\_{f(x)=
 如果损失函数为MSE, 损失函数为$L(y_i,f(x_i)) = \frac{1}{2}(y_i - f(x_i))^2$，此时模型的负梯度方向即为残差方向$r_{mi} = y_i - f(x_i)$。
 
 如果将GBDT名字拆开比较好理解，包含了三个关键的部分
-1.G(Gradient) 梯度(残差)
-2.B(Boosting) 提升方法，即为加法模型与前向分布算法
-3.DT(Decision Tree) CART回归树，弱学习器。
+1.G(Gradient) 梯度(残差)  
+2.B(Boosting) 提升方法，即为加法模型与前向分布算法  
+3.DT(Decision Tree) CART回归树，弱学习器。  
 
 所以将GBDT算法的流程做个总结如下:  
 一、初始化  
-$$f_0(x) = argmin_c \sum_{i=1}^N L(y_i, c)$$  
+$$f_0(x) = argmin_c \sum_{i=1}^N L(y_i, c)$$    
 使损失函数最小，其只是一个根节点的树。  
 二、对m=1, 2, …M  
 2.1 计算梯度(残差)   
