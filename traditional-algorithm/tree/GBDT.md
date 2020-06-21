@@ -19,7 +19,7 @@ $$f_0(x) = argmin_c \sum_{i=1}^N L(y_i, c)$$
 使损失函数最小，其只是一个根节点的树。  
 二、对m=1, 2, …M  
 2.1 计算梯度(残差)   
-$$\large{r_{mi}} = -\left[\frac{\partial L(y_i,f(x_i))}{\partial f(x_i)} \right]_{f(x)=f_{m-1}(x)}$$
+$$\large{r_{mi}} = -{\left[\frac{\partial L(y_i,f(x_i))}{\partial f(x_i)} \right]}_{f(x)=f_{m-1}(x)}$$
 即将损失函数的负梯度在当前模型的值，将它作为残差的估计(如果是MSE，就是通常意义所说的残差。如果是其他损失函数，则为残差的近似)  
 2.2 得到一个新的回归树$T(x;\theta_m)$  
 2.3 更新$f_m(x) = f_{m-1}(x) + T(x; \theta_m)$      
