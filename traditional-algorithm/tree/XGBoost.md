@@ -44,7 +44,8 @@ $$\mathcal { L } ^ { ( t ) } \simeq \sum _ { i = 1 } ^ { n } \left[ g _ { i } f 
 上面式子的含义是将每个样本的损失函数相加，而每个样本最终都会落到一个叶子节点上，所以我们可以将所有同一个叶子结点的样本重组起来
 $$
 \begin{align}
-\hat{ \mathcal { L }}^{(t)} & =\sum_{i=1}^n [g_if_t(x_i) + \frac12h_tf_t^2(x_i)] + \Omega(f_t) \\
+\hat{ \mathcal { L }}^{(t)} 
+ & =\sum_{i=1}^n [g_if_t(x_i) + \frac12h_tf_t^2(x_i)] + \Omega(f_t) \\
  & =\sum_{i=1}^n [g_if_t(x_i) + \frac12h_tf_t^2(x_i)] + \gamma T+\frac{1}{2}\lambda\sum\limits_{j=1}^{T}w_j^2 \\ 
  & = \sum\limits_{j=1}^{T} [(\sum\limits_{i\in I_j}g_i)w_j+\frac{1}{2}(\sum\limits_{i\in I_j}h_i+\lambda) w_j^2]+\gamma T \\ 
  & = \frac{1}{2}\sum\limits_{j=1}^{T} (H_j+\lambda)(w_j + \frac{G_j}{H_j+\lambda})^2+\gamma T -\frac{1}{2}\sum\limits_{j=1}^{T}\frac{G_j^2}{H_j+\lambda} 
