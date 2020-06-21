@@ -5,7 +5,7 @@ GBDT与提升树有非常密切的关系。为方便阅读本文，可以先参�
 
 GBDT与上面普通提升树的不同在于，其拟合的不是残差，而是梯度下降的方向。也就是将残差的计算替换为损失函数梯度的计算：
   
-$$r_{mi} = -\left[\frac{\partial L(y_i,f(x_i))}{\partial f(x_i)} \right]_{f(x)=f\_{m-1}(x)}$$  
+$$r_{mi} = -\left[\frac{\partial L(y_i,f(x_i))}{\partial f(x_i)} \right]\_{f(x)=f_{m-1}(x)}$$  
 
 如果损失函数为MSE, 损失函数为$L(y_i,f(x_i)) = \frac{1}{2}(y_i - f(x_i))^2$，此时模型的负梯度方向即为残差方向$r_{mi} = y_i - f(x_i)$。
 
