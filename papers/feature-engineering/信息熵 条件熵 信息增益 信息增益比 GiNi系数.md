@@ -31,11 +31,11 @@ $$H(c) = - \frac{1}{3} \log_2 \frac{1}{3} \times 3 = \log_2 3$$
 应该不难看出：
 $$
 \begin{aligned}
-H(c|X) &= -p(x=x_1)H(c|x=x_1) -  p(x=x_2)H(c|x=x_2) - \cdots -  p(x=x_n)H(c|x=x_n) \\
-& = -\sum_{i=1}^{n} p(x=x_i)H(c|x = x_i) \\
-& = -\sum_{i=1}^{n} p(x=x_i) p(c|x = x_i) \log_2 p(c|x = x_i) \\
+H(c|X) &= -p(x=x_1)H(c|x=x_1) -  p(x=x_2)H(c|x=x_2) - \cdots -  p(x=x_n)H(c|x=x_n) \\\\
+& = -\sum_{i=1}^{n} p(x=x_i)H(c|x = x_i) \\\\
+& = -\sum_{i=1}^{n} p(x=x_i) p(c|x = x_i) \log_2 p(c|x = x_i) \\\\
 & = -\sum_{i=1}^{n} p(c,x_i) \log_2p(c|x = x_i)
-\end{alignded}
+\end{aligned}
 $$  
 
 其中，n为特征$X$所出现所有种类的数量。  
@@ -43,7 +43,8 @@ $$
 那么因为特征X被固定以后，给系统带来的增益(或者说为系统减小的不确定度)为： 
 $$
 \begin{aligned}
-IG(X) &= H(c) - H(c|X) \\
+IG(X) 
+& = H(c) - H(c|X) \\\\
 & = -\sum_{i=1}^n p(c_i) \log_2 p(c_i)+\sum_{i=1}^{n}  p(x=x_i)H(c|x = x_i)
 \end{aligned}
 $$  
@@ -52,14 +53,14 @@ $$
  因此固定$X$时系统的条件熵为：
  $$  
  \begin{aligned}
- H(C|X) &= -p(x)H(c|x) - p(\bar x) H(C| \bar x) \\
+ H(C|X) &= -p(x)H(c|x) - p(\bar x) H(C| \bar x) \\\\
  \end{aligned}
  $$  
 
 特征$X$给系统带来的信息增益(IG)为：
 $$  
 \begin{aligned}
-IG(X)  &= H(c) - H(c|X) \\ 
+IG(X)  &= H(c) - H(c|X) \\\\
  & =-\sum_{i=1}^n p(c_i) \log_2 p(c_i) + p(x) \sum_{i=1}^n p(c_i|x) \log_2 p(c_i|x) + p(\bar x)\sum_{i=1}^n  p(c_i| \bar x) \log_2 p(c_i| \bar x) 
 \end{aligned}
 $$  
