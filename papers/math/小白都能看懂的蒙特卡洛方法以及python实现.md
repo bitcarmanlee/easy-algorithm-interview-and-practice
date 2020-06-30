@@ -104,6 +104,6 @@ def integral():
 
 
 ## 参考文献：
-1.https://zh.wikipedia.org/wiki/蒙地卡羅方法
-2.http://www.scratchapixel.com/lessons/mathematics-physics-for-computer-graphics/monte-carlo-methods-in-practice/monte-carlo-integration
+1.https://zh.wikipedia.org/wiki/蒙地卡羅方法  
+2.http://www.scratchapixel.com/lessons/mathematics-physics-for-computer-graphics/monte-carlo-methods-in-practice/monte-carlo-integration  
 3.https://blog.csdn.net/baimafujinji/article/details/53869358
