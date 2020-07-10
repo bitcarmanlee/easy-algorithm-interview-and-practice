@@ -279,7 +279,7 @@ $$P(x|\theta) = \frac{1}{(2\pi)^{\frac{D}{2}}\left| \Sigma \right|^{\frac{1}{2}}
 协方差：  
 如果用$x_{ki}$表示随机变量$x_k$的第i个样本，n表示样本总数，则$x$第m维与第k维的协方差为  
 
-$$\sigma\left(x_m,x_k\right)=\frac{1}{n-1}\sum_{i=1}^n\left(x_{mi}-\bar{x}_m\right)\left(x_{ki}-\bar{x}_k\right)$$  
+$$\sigma\left(x_m,x_k\right)=\frac{1}{n-1}\sum_{i=1}^n\left(x_{mi}-\bar{x}\_m\right)\left(x_{ki}-\bar{x}_k\right)$$  
 
 $$\Sigma=\left [
 \begin{matrix}
