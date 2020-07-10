@@ -262,7 +262,7 @@ main()
 GMM混合高斯分布是多个高斯分布函数的线性组合，假设有随机变量$X$，GMM模型可以用如下公式表示  
 $$p(\boldsymbol{x}) = \sum_{k=1}^K\pi_k \mathcal{N}(\boldsymbol{x}|\boldsymbol{\mu}_k, \boldsymbol{\Sigma}_k)$$  
 
-其中，$\mathcal{N}(\boldsymbol{x}|\boldsymbol{\mu}_k, \boldsymbol{\Sigma}_k)$  
+其中，$\mathcal{N}(\boldsymbol{x}|\boldsymbol{\mu}\_k, \boldsymbol{\Sigma}\_k)$  
 是模型中的第k个分量(component)。$p(\boldsymbol{x})$是混合系数（mixture coefficient)，而且有  
 $$\sum_{k=1}^K\pi_k = 1$$  
 $$0 \leq \pi_k \leq 1$$  
