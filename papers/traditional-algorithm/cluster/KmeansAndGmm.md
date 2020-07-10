@@ -324,7 +324,7 @@ $$p(x) = \sum\nolimits_\gamma  {p(\gamma )} p(y|\gamma ){\rm{ = }}\sum\limits_{{
 
 
 样本集X(n个样本点)的联合概率为：  
-$$L(\mu ,\Sigma ,\pi ) = L({x_1},{x_2}...{x_N};\mu ,\Sigma ,\pi ) = \prod\limits_{n = 1}^N {p({x_n};\mu ,\Sigma ,\pi )}  = \prod\limits_{n = 1}^N {\sum\limits_{{\rm{k}} = 1}^K {{\pi _k}N({x_n}|{\mu _k},{\Sigma _k})} }$$  
+$$L(\mu ,\Sigma ,\pi ) = L({x_1},{x_2}...{x_N};\mu ,\Sigma ,\pi ) = \prod\limits_{n = 1}^N {p({x_n};\mu ,\Sigma ,\pi )}  = \prod\limits_{n = 1}^N {\sum\limits_{{\rm{k}} = 1}^K {{\pi \_k}N({x_n}|{\mu \_k},{\Sigma \_k})} }$$  
 　　
 对数似然函数表示为：  
 $$\ln L(\mu ,\Sigma ,\pi ) = \sum\limits_{n = 1}^N {\ln \sum\limits_{{\rm{k}} = 1}^K {{\pi _k}N({x_n}|{\mu _k},{\Sigma _k})} }$$  
