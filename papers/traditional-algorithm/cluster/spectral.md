@@ -15,7 +15,7 @@
 ## 3.图的基本概念
 图是数据结构中的概念。图是由顶点与边构成，任意两个节点之间可能都有边进行连接，如果边带有值的信息，称为权重。比如下面的一个图。  
 
-![在这里插入图片描述](https://github.com/bitcarmanlee/easy-algorithm-interview-photo/tree/master/traditional-algorithm/cluster/spectral/1.png)  
+![在这里插入图片描述](https://github.com/bitcarmanlee/easy-algorithm-interview-photo/blob/master/traditional-algorithm/cluster/spectral/1.png)  
 图一般用字母G表示，边一般用E表示，点用V表示。如果两个点之间有连接，则有一条边。如果边是单向的，则边是有向的，该图为有向图。否则为无向图。  
 
 顶点的度定义为该顶点所关联的边的数量，对于有向图它还分为出度和入度，出度是指从一个顶点射出的边的数量，入度是连入一个节点的边的数量。无向图可以用三元组形式化的表示：  
@@ -64,7 +64,7 @@ $$W(A, B) = \sum \limits \_{i \in A, j \in B} w_{ij}$$
 那么对于k个子图的集合$A_1, A_2, \cdots, A_k$，定义图的cut  
 $$cut(A_1, A_2, \cdots, A_k) =  \frac{1}{2}\sum \limits _{i=1}^k W(A_i, \overline {A_i})$$  
 那么切图的要求自然就是高内聚，低耦合了，就是说每个子图内的点权重高，而每个子图之间的点权重和低。一个自然的想法就是最小化$cut(A_1, A_2, \cdots, A_k)$，但是这样会存在问题。  
-![在这里插入图片描述](https://github.com/bitcarmanlee/easy-algorithm-interview-photo/tree/master/traditional-algorithm/cluster/spectral/2.jpg)  
+![在这里插入图片描述](https://github.com/bitcarmanlee/easy-algorithm-interview-photo/blob/master/traditional-algorithm/cluster/spectral/2.jpg)  
 上图可以看出smallest cut跟best cut差别很大。  
 
 ## 6.不同的切图方式
