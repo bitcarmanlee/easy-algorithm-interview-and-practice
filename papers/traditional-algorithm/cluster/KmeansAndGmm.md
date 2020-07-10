@@ -283,8 +283,8 @@ $$\sigma\left(x_m,x_k\right)=\frac{1}{n-1}\sum_{i=1}^n\left(x_{mi}-\bar{x}\_m\ri
 
 $$\Sigma=\left [
 \begin{matrix}
-\sigma(x_1, x_1) & \cdots & \sigma(x_1, x_d) \\
-\cdots & \cdots & \cdots \\
+\sigma(x_1, x_1) & \cdots & \sigma(x_1, x_d) \\\\
+\cdots & \cdots & \cdots \\\\
 \sigma(x_d, x_1) & \cdots  & \sigma(x_d, x_d) \\
 \end{matrix} 
 \right ]$$  
