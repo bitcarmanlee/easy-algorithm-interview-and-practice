@@ -10,8 +10,10 @@ $$x = [x_0,x_1,x_2,\cdots,x_n]^T$$
 李航博士在统计学习方法一书中给分类问题做了如下定义：  
 分类是监督学习的一个核心问题，在监督学习中，当输出变量Y取有限个离散值时，预测问题便成为分类问题。这时，输入变量X可以是离散的，也可以是连续的。监督学习从数据中学习一个分类模型或分类决策函数，称为分类器(classifier)。分类器对新的输入进行输出的预测(prediction)，称为分类(classification).  
 
-在logistic回归详解一(http://blog.csdn.net/bitcarmanlee/article/details/51154481）中，我们花了一整篇篇幅阐述了为什么要使用logistic函数: $$h_{\theta}(x) = g(\theta^{T}x) = \frac{1}{1+e^{-\theta^{T}x}}$$  
-其中一个重要的原因，就是要将Hypothesis(NG课程里的说法)的输出映射到0与1之间，既：  
+在logistic回归详解一(http://blog.csdn.net/bitcarmanlee/article/details/51154481)  
+中，我们花了一整篇篇幅阐述了为什么要使用logistic函数:   
+$$h_{\theta}(x) = g(\theta^{T}x) = \frac{1}{1+e^{-\theta^{T}x}}$$  
+其中一个重要的原因，就是要将Hypothesis(NG课程里的说法)的输出映射到0与1之间，既：    
 $$0\le h_{\theta}(x)\le 1$$  
 
 同样是李航博士统计学习方法一书中，有以下描述：  
