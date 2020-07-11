@@ -52,7 +52,7 @@ $$L(Y,P(Y|X)) = -logP(Y|X)$$
 ## 4.说说对数损失函数与平方损失函数
 在逻辑回归的推导中国，我们假设样本是服从伯努利分布(0-1分布)的，然后求得满足该分布的似然函数，最终求该似然函数的极大值。整体的思想就是求极大似然函数的思想。而取对数，只是为了方便我们的在求MLE(Maximum Likelihood Estimation)过程中采取的一种数学手段而已。  
 
-## 损失函数详解
+## 5.损失函数详解
 根据上面的内容，我们可以得到逻辑回归的对数似然损失函数cost function：  
 $$cost(h_{\theta}(x),y) = \begin{cases}  -log(h_{\theta}(x))  & \text {if y=1} \\\\ -log(1-h_{\theta}(x))  & \text{if y=0} \end{cases} $$    
 
