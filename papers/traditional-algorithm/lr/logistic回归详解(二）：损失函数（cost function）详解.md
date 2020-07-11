@@ -54,7 +54,7 @@ $$L(Y,P(Y|X)) = -logP(Y|X)$$
 
 ## 损失函数详解
 根据上面的内容，我们可以得到逻辑回归的对数似然损失函数cost function：  
-$$cost(h_{\theta}(x),y) = \begin{cases}  -log(h_{\theta}(x))  & \text {if y=1} \\ -log(1-h_{\theta}(x))  & \text{if y=0} \end{cases} $$    
+$$cost(h_{\theta}(x),y) = \begin{cases}  -log(h_{\theta}(x))  & \text {if y=1} \\\\ -log(1-h_{\theta}(x))  & \text{if y=0} \end{cases} $$    
 
 稍微解释下这个损失函数，或者说解释下对数似然损失函数：    
 当y=1时，假定这个样本为正类。如果此时$h_\theta(x)=1$,则单对这个样本而言的cost=0,表示这个样本的预测完全准确。那如果所有样本都预测准确，总的cost=0  
