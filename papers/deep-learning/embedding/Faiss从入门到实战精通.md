@@ -168,7 +168,8 @@ faiss中最重要的是索引Index，具体的索引类型见参考文献2.
 <td>no</td>
 <td></td>
 </tr>
-</tbody>  
+</tbody>
+</table>
 
 
 上面的索引中，三个最重要的索引为IndexFlatL2,IndexIVFFlat,IndexIVFPQ。下面针对这三种索引来进行分析与说明。  
