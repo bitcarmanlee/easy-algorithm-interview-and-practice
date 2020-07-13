@@ -154,5 +154,5 @@ array([[1, 0, 2],
 
 ## 6.bsr_matrix
 Block Sparse Row format，顾名思义，是按分块的思想对矩阵进行压缩。  
-根据http://blog.csdn.net/pipisorry/article/details/41762945一文，截了一个图，比较清晰地描述了bsr_matrix。  
+根据 http://blog.csdn.net/pipisorry/article/details/41762945 一文，截了一个图，比较清晰地描述了bsr_matrix。  
 ![这里写图片描述](https://github.com/bitcarmanlee/easy-algorithm-interview-photo/blob/master/math/matrix/sparse/3.png)  
