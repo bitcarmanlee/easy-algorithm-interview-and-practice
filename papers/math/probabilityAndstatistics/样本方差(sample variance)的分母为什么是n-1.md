@@ -68,15 +68,15 @@ $$
 \begin{aligned}
 Var(\bar x)  = D(\frac{1}{n} \sum_{i=1}^n x_i) = \frac{1}{n^2} \sum_{i=1}^n D(x_i) = \frac{1}{n^2} \cdot n \sigma^2 = \frac{1}{n}  \sigma^2 
 \end{aligned}
-$$
+$$  
 
 
-所以有:
-$$\frac{n}{n-1} E(s^2) = \frac{n}{n-1} \times \frac{n-1}{n}D(x) = \sigma ^ 2$$
-最后可知样本方差修正以后的公式为:
+所以有:  
+$$\frac{n}{n-1} E(s^2) = \frac{n}{n-1} \times \frac{n-1}{n}D(x) = \sigma ^ 2$$  
+最后可知样本方差修正以后的公式为:  
 $$
 \begin{aligned}
-s^2 & = \frac{n}{n-1} \left( \frac{1}{n}  \sum_{i=1}^n(x_i - \bar x)^2 \right ) \\
+s^2 & = \frac{n}{n-1} \left( \frac{1}{n}  \sum_{i=1}^n(x_i - \bar x)^2 \right ) \\\\
 & = \frac{1}{n-1} \sum_{i=1}^n(x_i - \bar x)^2
 \end{aligned}
 $$
