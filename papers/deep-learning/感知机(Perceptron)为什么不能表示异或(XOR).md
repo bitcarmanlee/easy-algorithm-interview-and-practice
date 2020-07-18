@@ -7,15 +7,14 @@
 $$f(x) = sign(w\cdot x) + b$$  
 
 此函数被称为感知机。其中，$w$与$b$为感知机的模型参数，$w \subset R^n$为权重(weight)或权值向量(weight vector)，$b \subset R$为偏置(bias)，$w \cdot x$表示$w$与$x$的内积，而$sign$是符合函数，即：  
-$$\begin{equation}
+
+$$
 sign(x) = 
-  \left\{
-   \begin{aligned}
-  +1, x \geq0 \\
-  -1,x \leq 0 \\
-   \end{aligned}
-   \right.
-  \end{equation}$$  
+\begin{cases} 
++1,  x \geq 0 \\\\
+-1,x \leq 0
+\end{cases}
+$$  
   
   
 感知机是一种线性分类模型，属于判别模型。
