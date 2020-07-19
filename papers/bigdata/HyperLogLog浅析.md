@@ -36,7 +36,7 @@ hash(ele1) = 00110111
 hash(ele2) = 10010001
 ```  
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200308172520798.png)  
+![在这里插入图片描述](https://github.com/bitcarmanlee/easy-algorithm-interview-photo/blob/master/bigdata/hyperloglog/1.png)  
 
 
 ## 3.调和平均数
@@ -53,7 +53,7 @@ $$DV_{LL} = constant * m ^ 2 * (\sum_j ^m 2 ^ {-R_j}) ^ {-1}$$
 其中constant常数和m的含义和之前的LogLog算法公式中的含义一致，Rj代表(第j个桶中的数据的最大前导零数目+1)，为了方便理解，我将公式再拆解一下：  
 
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200308173005251.png)  
+![在这里插入图片描述](https://github.com/bitcarmanlee/easy-algorithm-interview-photo/blob/master/bigdata/hyperloglog/2.png)  
 其实从算术平均数改成调和平均数这个优化是很容易想到的，但是为什么LogLog算法没有直接使用调和平均数吗？网上看到一篇英文文章里说大概是因为使用算术平均数的话证明比较容易一些，毕竟科学家们出论文每一步都是要证明的，不像我们这里简单理解一下，猜一猜就可以了。  
 
 ## 4.细节微调
