@@ -1,4 +1,4 @@
-## 1.Map详解
+## 1.Map
 hive里支持map的结构如下：  
 (key1, value1, key2, value2, ...) Creates a map with the given key/value pairs  
 
