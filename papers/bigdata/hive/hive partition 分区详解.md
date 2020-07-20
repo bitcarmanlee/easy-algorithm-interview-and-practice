@@ -18,7 +18,7 @@ Time taken: 0.139 seconds, Fetched: 144 row(s)
 由此可见上述命令显示了基本的分区情况  
 
 
-2.desc xxx partition(day=20160315)
+## 2.desc xxx partition(day=20160315)
 ```
 hive> desc xxx partition(day=20160315);
 OK
@@ -44,7 +44,7 @@ Time taken: 0.359 seconds, Fetched: 36 row(s)
 
 
 
-3.extended
+## 3.extended
 ```
 hive>  desc extended ods_search_log_app partition(day=20160315);
 OK
