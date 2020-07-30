@@ -18,10 +18,10 @@ export ZOOKEEPER_HOME=/opt/zookeeper
 export PATH=$PATH:$ZOOKEEPER_HOME/bin
 ```  
 
-其中ZOOKEEPER_HOME为解压的地址。  
+其中ZOOKEEPER_HOME为解压的地址。    
 
 ### 3.3  修改zoo.cfg
-需要将 $ZOOKEEPER_HOME/conf 目录下的 zoo_sample.cfg 重命名为 zoo.cfg, zoo.cfg。  
+需要将 $ZOOKEEPER_HOME/conf 目录下的 zoo_sample.cfg 重命名为 zoo.cfg, zoo.cfg。    
 默认配置为  
 
 ```
