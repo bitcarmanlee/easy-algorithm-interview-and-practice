@@ -38,7 +38,7 @@
 选择得到特征，怎么用也是一个问题。  
 
 先说需求，其实预估ctr要做的事情是下面的图的工作——计算一个用户/广告组合的ctr。  
-![这里写图片描述](https://github.com/bitcarmanlee/easy-algorithm-interview-photo/blob/master/feature-engineering/detail-feature/3.png)      
+![这里写图片描述](https://github.com/bitcarmanlee/easy-algorithm-interview-photo/blob/master/feature-engineering/detail-feature/3.jpeg)      
 
 上面已经选好了特征，暂定有广告的反馈ctr，用户年龄，性别三个特征。  
 一、离散化  
@@ -57,7 +57,7 @@
 做到的交叉的特征值就足够了吗？答案还是不一定。  
 
 如编号为1的那个特征，就是广告本身的ctr，假设互联网广告的点击率符合一个长尾分布，叫做对数正态分布，其概率密度是下图（注意这个是假设，不代表真实的数据，从真实的数据观察是符合这么样的一个形状的，好像还有雅虎的平滑的那个论文说它符合beta分布）。  
-![这里写图片描述](https://github.com/bitcarmanlee/easy-algorithm-interview-photo/blob/master/feature-engineering/detail-feature/4.png)      
+![这里写图片描述](https://github.com/bitcarmanlee/easy-algorithm-interview-photo/blob/master/feature-engineering/detail-feature/4.jpeg)      
 
 
 可以看到，大部分广告的点击率都是在某一个不大的区间内的，点击率越高的广告越少，同时这些广告覆盖的流量也少。换句话说，点击率在0.2%左右的时候，如果广告a的点击率是0.2%，广告b的点击率是0.25%，广告b的点击率比广告a高0.05%，其实足以表示广告b比广a好不少；但是点击率在1.0%左右的的时候，广告a点击率是1.0%，广告b的点击率是1.05%，并没有办法表示广告b比广告a好很多，因为在这0.05%的区间内的广告并不多，两个广告基本可以认为差不多的。也就是点击率在不同的区间，应该考虑是不同的权重系数，因为这个由广告点击率组成的编号为1的特征与这个用户对广告的点击的概率不是完全的正相关性，有可能值越大特征越重要，也有可能值增长到了一定程度，重要性就下降了。  
