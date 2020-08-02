@@ -35,7 +35,7 @@ Maven共有6类属性：
 </project>
 ```  
 
-在其他地方使用${my.pro}使用该属性值。  
+在其他地方使用`${my.pro}`使用该属性值。  
 
 ## 4.settings.xml文件属性
 与pom属性同理,用户使用以settings.开头的属性引用settings.xml文件中的XML元素值  
