@@ -240,7 +240,7 @@ while (true) {
 
 当有Socket链接不是很多的时候,TThreadPoolServer并不会有太大的性能问题,可以通过指定ThreadPool中线程的个数进行简单的调优..如果Socket链接很多,我们只能使用TThreadedSelectorServer来做支撑,TThreadedSelectorServer内部基于NIO模式,具有异步的特性,可以极大的提升server端的并发能力;不过在绝大多数情况下,在thrift中使用"异步"似乎不太容易让人接受,毕竟这意味着Client端需要阻塞,并且在高并发环境中这个阻塞时间是不可控的.但SelecorServer确实可以有效的提升Server的并发能力，而且在一定程度上可以提升吞吐能力，这或许是我们优化Thrift Server比较可靠的方式之一.  
 
-## 3. Client端代码示例
+## 5. Client端代码示例
 
 ```
 public class UserServiceClient {  
@@ -265,7 +265,7 @@ public class UserServiceClient {
 }  
 ```  
 
-## 4.Server端代码示例 
+## 6.Server端代码示例 
 
 ```
 public class Server {  
@@ -292,7 +292,7 @@ public class Server {
  
 问题总没有想象的那么简单,其实service被拆分的粒度越细,越容易被部署和扩展,对于负载均衡就更加有利.如何让一个service分布式部署,稍后再继续分享.  
 
-## 5.总结:
+## 7.总结:
 1) thrift文件定义struct和serivice API,此文件可以被其他语言生成API文件或者类文件.  
 2) 使用thrift客户端生成API文件  
 3) JAVA服务端(即服务提供端),实现service功能.  
