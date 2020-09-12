@@ -18,8 +18,10 @@
   -- mathcasebycase        一些比较分散不好归类的数学知识点  
   -- recommend             推荐系统一些相关知识，目前作者就从事推荐相关工作  
   -- service-enginnering   线上服务，算法上线必备知识  
-  -- tools                 实际中常用的各种工具，包括awk,grep,sed数据处理三剑客，git,maven等常见工具，intellij，sublime,vim等IDE, linux-shell常见脚本  
-  -- traditional-algorithm 区别于深度学习的传统机器学习算法，包括聚类算法/最优化方法/树类算法等，还有mllib的简单介绍。  
+  -- tools                 实际中常用的各种工具，包括awk,grep,sed数据处理三剑客，git,maven等常见工具，
+                           intellij，sublime,vim等IDE, linux-shell常见脚本  
+  -- traditional-algorithm 区别于深度学习的传统机器学习算法，包括聚类算法/最优化方法/树类算法等，
+                           还有mllib的简单介绍。  
 ```  
 
 同学们可以按照自己的兴趣，去对应的版块寻找对应的内容。  
