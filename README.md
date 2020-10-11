@@ -1,13 +1,30 @@
-本项目是作者多年学习与工作实践的总结，绝大部分代码都经过实际运行保证准确无误。  
+## Background
+This project is a summary of the author's years of study and work practice. Most of the code has been actually run to ensure accuracy. Guys who point star regularly have opportunity to receive gifts by random algorithms. 😁  
+本项目是作者多年学习与工作实践的总结，绝大部分代码都经过实际运行保证准确无误。点star的同学定期有随机算法选择赠送小礼品。😁    
 
-作者非CS专业科班出身，在校期间并未系统学习过数据结构,操作系统,设计模式等课程，相关的知识都是工作以后再进行系统学习，所以该项目特别适合非CS专业同学参考。  
+## Structure
 
-结合作者工作实践发现，算法并不只是离线train model，甚至可以说离线train model只是工作很小的一部分。相反对应的工程能力，代码能力，数据能力非常重要。  
+```
+  -- bigdata               solution for bigdata，contains hive/hadoop/spark/hbase etc... 
+  -- code-languages        programming language，contains java/python/scala etc...  
+  -- cs-other              some interesting things in the cs field    
+  -- deep-learning         derivation of some algorithm principles of deep learning，tensorflow frame etc...    
+  -- feature-engineering   feature-engineering is very important for algorithm
+  -- math                  mathematical principles，contains matrix analysis, probability and statistics etc...
+  -- mathcasebycase        some mathematical knowledge points that are relatively scattered and difficult to classify 
+  -- recommend             knowledge about recommendation system  
+  -- service-enginnering   service online，essential knowledge for algorithm online  
+  -- tools                 various tools commonly used in practice, 
+                           including awk, grep, sed data processing three swordsmen, 
+                           git, maven and other common tools, intellij,
+                           sublime, vim and other IDEs, 
+                           linux-shell common scripts
+  -- traditional-algorithm traditional machine learning algorithms that are different from deep learning,
+                           including clustering algorithms/optimization methods/tree algorithms, etc.,
+                           as well as a brief introduction to mllib.
 
-因此该项目不仅有算法理论，算法推导，还有更多工程以及数据方面的内容，大部分都是工作中遇到的实际问题，可以为大家实践中提供参考思路。  
+```  
 
-
-项目结构如下  
 ```
   -- bigdata               大数据处理方案，包括hive/hadoop/spark/hbase等  
   -- code-languages        编码语言，包括java/python/scala等  
@@ -24,7 +41,26 @@
                            还有mllib的简单介绍。  
 ```  
 
-同学们可以按照自己的兴趣，去对应的版块寻找对应的内容。  
-对应的CSDN博客地址:  https://blog.csdn.net/bitcarmanlee  
-github的排版以及稳定性比csdn更高，以后优先维护github上的项目。    
+## Suitable for
+1.The author came from a non-CS major, and did not systematically study data structures, operating systems, design patterns and other courses during school. The relevant knowledge is to be studied systematically after work.  
+  So this project is especially suitable for non-CS majors.  
+作者非CS专业科班出身，在校期间并未系统学习过数据结构,操作系统,设计模式等课程，相关的知识都是工作以后再进行系统学习。  
+所以该项目特别适合非CS专业同学参考。  
+
+2.The algorithm is not just an offline train model, it can even be said that the offline train model is only a small part of the work. On the contrary, the corresponding engineering capabilities, code capabilities, and data capabilities are very important.  
+  Therefore, this project is especially suitable for guys who need to put the algorithm online from 0 to 1.  
+算法并不只是离线train model，甚至可以说离线train model只是工作很小的一部分。相反对应的工程能力，代码能力，数据能力非常重要。  
+因此该项目特别适合需要将算法从0到1怼上线的同学  
+
+3.The project not only contains algorithm theory, algorithm derivation, but also more engineering and data aspects. Most of them are actual problems encountered in work, which can provide you with reference ideas in practice.  
+  Therefore, this project is especially suitable for guys who need to solve various practical problems in actual combat.  
+该项目不仅有算法理论，算法推导，还有更多工程以及数据方面的内容，大部分都是工作中遇到的实际问题，可以为大家实践中提供参考思路。    
+因此该项目特别适合实战中需要解决各种实际问题的同学  
+
+## CSDN address
+https://blog.csdn.net/bitcarmanlee  
+
+## Update
+The layout and stability of github is higher than that of csdn. In the future, it will be prioritized to maintain the projects on github, and csdn will also keep synchronized updates.  
+github的排版以及稳定性比csdn更高，以后优先维护github上的项目，CSDN也会保持同步更新。      
 
