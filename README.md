@@ -46,7 +46,7 @@ Guys who point star regularly have opportunity to receive gifts by random algori
 
 ## Suitable for
 ###  case1
-The author came from a non-CS major,   
+The author come from a non-CS major,   
 and did not systematically study data structures, operating systems,   
 design patterns and other courses during school.   
 The relevant knowledge is to be studied systematically after work.    
@@ -60,7 +60,7 @@ So this project is especially suitable for non-CS majors.
 For CS majors, some of them have not studied mathematics courses systematically,     
 such as matrix analysis, probability statistics, optimization, etc.   
 The major of the author's master's degree is pattern recognition.   
-And in the future work, he will roughly understand which mathematical knowledge  
+And in the future work, he roughly understand which mathematical knowledge  
 is the key and difficult point in algorithm learning and practice.  
 Therefore, this project is also suitable for students majoring in CS  
   
