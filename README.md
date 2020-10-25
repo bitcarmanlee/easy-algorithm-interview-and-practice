@@ -45,7 +45,7 @@ Guys who point star regularly have opportunity to receive gifts by random algori
 ```  
 
 ## Suitable for
-###  case1
+### for computer science guys
 The author come from a non-CS major,   
 and did not systematically study data structures, operating systems,   
 design patterns and other courses during school.   
@@ -56,7 +56,7 @@ So this project is especially suitable for non-CS majors.
 相关的知识都是工作以后再进行系统学习。  
 所以该项目特别适合非CS专业同学参考。  
 
-###  case2
+###  for non-computer science guys
 For CS majors, some of them have not studied mathematics courses systematically,     
 such as matrix analysis, probability statistics, optimization, etc.   
 The major of the author's master's degree is pattern recognition.   
@@ -70,7 +70,7 @@ CS专业的同学，有一部分没有系统学过数学方面的课程，比如
 因此，该项目也特别适合CS专业的同学。 
 
 
-### case3
+### for guys who need to put the algorithm online from 0 to 1
 The algorithm is not just an offline train model,     
 it can even be said that the offline train model is only a small part of the work.   
 On the contrary, the corresponding engineering capabilities,   
@@ -83,7 +83,7 @@ who need to put the algorithm online from 0 to 1.
 因此该项目特别适合需要将算法从0到1怼上线的同学    
 
 
-### case4
+### for guys who need to solve various practical problems in actual work
 The project not only contains algorithm theory, algorithm derivation,   
 but also more engineering and data aspects.  
 Most of them are actual problems encountered in work,   
