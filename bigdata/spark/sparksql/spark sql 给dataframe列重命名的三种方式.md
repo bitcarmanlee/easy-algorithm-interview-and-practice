@@ -28,7 +28,7 @@ spark sql去读取文本生成dataframe时，如果该文本没有自带schema�
     sparkConf.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
     val spark = SparkSession.builder().config(sparkConf).getOrCreate()
 
-    val path = "file:///Users/wanglei/wanglei/data/push/purchase/123"
+    val path = "xxx"
 
     val df = spark.read
       .option("header", "false")
