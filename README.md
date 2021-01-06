@@ -3,7 +3,8 @@ This project is a summary of the author's years of study and work practice.
 Most of the code has been actually run to ensure accuracy.   
 Guys who point star regularly have opportunity to receive gifts by random algorithms. 😁
     
-本项目是作者多年学习与工作实践的总结，绝大部分代码都经过实际运行保证准确无误。  
+本项目是作者多年学习与工作实践的总结，绝大部分代码都经过实际运行保证准确无误  
+点星的同学们，会不定期抽奖，赠送小礼品。 
 
 ## Structure
 
